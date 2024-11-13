@@ -1,0 +1,17 @@
+{
+  "cwd": "/Volumes/Data/Projects/quanlykiot/zalo-mini-admin",
+  "newProject": true,
+  "name": "Admin-App",
+  "package": "zmp-ui",
+  "framework": "react",
+  "cssPreProcessor": "scss",
+  "template": "blank",
+  "includeTailwind": true,
+  "theming": {
+    "color": "#007aff",
+    "darkTheme": false,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "stateManagement": "recoil"
+}
