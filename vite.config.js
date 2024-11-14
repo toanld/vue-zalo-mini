@@ -3,6 +3,10 @@ import vue from '@vitejs/plugin-vue';
 import path from 'path';
 import autoprefixer from 'autoprefixer';
 import tailwindcss from 'tailwindcss';
+import dotenv from 'dotenv';
+// Load các biến môi trường từ file .env
+dotenv.config();
+
 // Lấy public path từ biến môi trường
 const publicPath = process.env.VITE_PUBLIC_PATH || '';
 export default defineConfig({
